@@ -1,0 +1,13 @@
+<svg id="btn-burgermenu" xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+  <g id="Elipse_1" data-name="Elipse 1" fill="none" stroke="#004542" stroke-width="1.5">
+    <circle cx="22.5" cy="22.5" r="22.5" stroke="none"/>
+    <circle cx="22.5" cy="22.5" r="21.75" fill="none"/>
+  </g>
+  <g id="Grupo_20" data-name="Grupo 20" transform="translate(-1253.001 -54.5)">
+    <g id="Grupo_781" data-name="Grupo 781">
+      <line id="Línea_1" data-name="Línea 1" x1="12.149" transform="translate(1268.5 72.5)" fill="none" stroke="#004542" stroke-linecap="round" stroke-width="1.5"/>
+      <line id="Línea_2" data-name="Línea 2" x1="12.149" transform="translate(1268.5 82.5)" fill="none" stroke="#004542" stroke-linecap="round" stroke-width="1.5"/>
+      <line id="Línea_3" data-name="Línea 3" x1="16" transform="translate(1268.5 77.5)" fill="none" stroke="#004542" stroke-linecap="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

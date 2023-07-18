@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Archivo';
+    src: url('../fonts/archivo/Archivo-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Archivo';
+    src: url('../fonts/archivo/Archivo-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Archivo';
+    src: url('../fonts/archivo/Archivo-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Archivo';
+    src: url('../fonts/archivo/Archivo-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Archivo';
+    src: url('../fonts/archivo/Archivo-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Autography';
+    src: url('../fonts/autography/Autography.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+}
+
+.swiper-button-disabled {
+  opacity: .4;
+  cursor: auto;
+  pointer-events: none;
+}
+
+.swiper-pagination .swiper-pagination-bullet{
+  background: #054542;
+  opacity: 0.5;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active{
+  opacity: 1;
+  width: 20px;
+  border-radius: 4px;
+}
