@@ -3,8 +3,14 @@ module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
     extend: {
+    
       colors: {
-
+        "green": "#004542",
+        "burlywood-400":"#E9E1D4",
+        "burlywood-700":"#996E43"
+      },
+      maxWidth:{
+        "mxl":"1400px"
       },
       fontFamily: {
         archivo: 'Archivo',
