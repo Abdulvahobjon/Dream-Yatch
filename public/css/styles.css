@@ -844,9 +844,8 @@ video {
 .border {
   border-width: 1px;
 }
-.border-\[\#996E43\] {
-  --tw-border-opacity: 1;
-  border-color: rgb(153 110 67 / var(--tw-border-opacity));
+.border-2 {
+  border-width: 2px;
 }
 .border-burlywood-700 {
   --tw-border-opacity: 1;
@@ -856,13 +855,13 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(71 177 229 / var(--tw-bg-opacity));
 }
-.bg-\[\#996E43\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(153 110 67 / var(--tw-bg-opacity));
-}
 .bg-burlywood-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(233 225 212 / var(--tw-bg-opacity));
+}
+.bg-burlywood-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(153 110 67 / var(--tw-bg-opacity));
 }
 .bg-green {
   --tw-bg-opacity: 1;
@@ -874,10 +873,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-.bg-burlywood-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(153 110 67 / var(--tw-bg-opacity));
 }
 .object-cover {
   -o-object-fit: cover;
@@ -935,11 +930,11 @@ video {
 .pb-11 {
   padding-bottom: 2.75rem;
 }
-.pb-14 {
-  padding-bottom: 3.5rem;
-}
 .pb-20 {
   padding-bottom: 5rem;
+}
+.pb-24 {
+  padding-bottom: 6rem;
 }
 .pb-4 {
   padding-bottom: 1rem;
@@ -970,9 +965,6 @@ video {
 }
 .pt-20 {
   padding-top: 5rem;
-}
-.pt-24 {
-  padding-top: 6rem;
 }
 .pt-4 {
   padding-top: 1rem;
@@ -1037,7 +1029,7 @@ video {
   --tw-text-opacity: 1;
   color: rgb(5 69 66 / var(--tw-text-opacity));
 }
-.text-\[\#996E43\] {
+.text-burlywood-700 {
   --tw-text-opacity: 1;
   color: rgb(153 110 67 / var(--tw-text-opacity));
 }
@@ -1048,10 +1040,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-.text-burlywood-700 {
-  --tw-text-opacity: 1;
-  color: rgb(153 110 67 / var(--tw-text-opacity));
 }
 .underline {
   text-decoration-line: underline;
@@ -1231,28 +1219,28 @@ h1{
     padding-bottom: 0.625rem;
   }
 
-  .md\:pb-32 {
-    padding-bottom: 8rem;
+  .md\:pb-20 {
+    padding-bottom: 5rem;
   }
 
-  .md\:pb-36 {
-    padding-bottom: 9rem;
+  .md\:pb-32 {
+    padding-bottom: 8rem;
   }
 
   .md\:pt-10 {
     padding-top: 2.5rem;
   }
 
+  .md\:pt-20 {
+    padding-top: 5rem;
+  }
+
   .md\:pt-36 {
     padding-top: 9rem;
   }
 
-  .md\:pt-48 {
-    padding-top: 12rem;
-  }
-
-  .md\:pt-20 {
-    padding-top: 5rem;
+  .md\:pb-28 {
+    padding-bottom: 7rem;
   }
 
   .md\:text-left {
